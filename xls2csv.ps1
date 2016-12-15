@@ -23,7 +23,7 @@ Function ExcelToCSV($file){
     }
 
     # close and quit excel
-    $workbook=$excel.workbooks.close()
+    $excelObject.workbooks.close()
     $ExcelObject.quit();
 }
 
